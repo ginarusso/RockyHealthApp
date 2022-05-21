@@ -3,7 +3,7 @@ body {
 	color: #000;
 	font-family: 'Chicle', cursive;
 	text-align: center;
-    background-image: url("images/dog-background.jpg");
+    background-image: url("../images/dog-background.jpg");
     background-size: cover;
     font-size: 20px;  
 }
@@ -38,7 +38,7 @@ button {
 .button-section {
     display: flex;
     justify-content: center;
-    background-image: url("images/paw-prints.png");
+    background-image: url("../images/paw-prints.png");
     border-radius: 10px;
     border: 3px dotted #d4a373;
     margin-top: 20px;
