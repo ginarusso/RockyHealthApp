@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chicle&display=swap" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <title>Rocky's Health App</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Rocky's Health App</h1>
+            <img id="activity" src="images/rocky.jpg" alt="Rocky playing at the beach with his nose covered with sand." />
+            <p>Rocky is a black and tan rottweiler/labrador mix and is almost 8 years old. He loves going to the beach and playing fetch!</p>
+            <p>But there's only one problem! He has no self-control. We need to create an app to keep him healthy.</p>
+            <p id="status">Rocky, we need to keep healthy!</p>
+                <div class="counter-section">
+                        <div class="button-section"> 
+                            <div class="fetch">
+                                <button id="fetch-btn" onclick="incrementFetch()">FETCH</button>
+                                <p id="fetch-num">0</p>
+                            </div><!--fetch-->
+                            <div class="eat">
+                                <button id="eat-btn" onclick="incrementEat()">EAT</button>
+                                <p id="eat-num">0</p>  
+                            </div><!--eat-->                          
+                                <div class="sleep">
+                                <button id="sleep-btn" onclick="incrementSleep()">SLEEP</button>
+                                <p id="sleep-num">0</p>
+                            </div><!--sleep-->
+                       </div><!--button-section-->
+                    <div class="button-section">
+                        <button class="largeBtn" onclick="reset()">RESET</button>
+                    </div><!--button-section-->
+              </div><!--counter-section-->
+        </div><!--container-->
+    <script src="index.js"></script>
+    </body>
+</html>
