@@ -57,7 +57,7 @@ button {
 .container {
     margin: 0 auto;
     width: 600px;
-    height: 575px;
+    height: 100%;
     background: #faedcd;
     border-radius: 20px;
     padding: 10px;
