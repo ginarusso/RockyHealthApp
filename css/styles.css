@@ -65,7 +65,7 @@ button:active {
     color: #000;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 325px) {
 
 /*.container {
     margin: 0 auto;
