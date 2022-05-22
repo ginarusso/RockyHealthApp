@@ -71,7 +71,7 @@ button:active {
     color: #000;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 320px) and (max-width: 600px) {
 
 /*.container {
     margin: 0 auto;
