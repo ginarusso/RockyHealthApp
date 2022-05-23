@@ -46,7 +46,7 @@ function healthCheck() {
 	if (countFetch === 3 && !fetchBtn.disabled) {
 		fetchNum.innerText = countFetch;
 		fetchBtn.disabled = true;
-		rockyStatus.innerText = "Rocky, your worked up an appetite!";
+		rockyStatus.innerText = "Rocky, you worked up an appetite!";
 		activityImage.src = "images/rocky-hungry.jpg";
 	} else {
 		if (countEat === 3 && !eatBtn.disabled) {
