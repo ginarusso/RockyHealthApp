@@ -34,7 +34,7 @@ button {
     transition: all 0.3s ease 0s;
     cursor: pointer;
     margin: 10px;
-    padding: 5px 8px;
+    padding: 10px 20px;
     font-family: 'Chicle', cursive;
 }
 
@@ -48,7 +48,8 @@ button {
 }
 
 .largeBtn {
-    width: 50%;
+    /*width: 50%;*/
+
 }
 
 .container {
@@ -68,7 +69,7 @@ button:active {
     color: #000;
 }
 
-@media max-width: 400px {
+@media (max-width: 600px) {
 
 /*.container {
     margin: 0 auto;
@@ -98,15 +99,16 @@ img {
 button {
     padding: 5px 5px;
     font-size: 15px;
-    width:  100%;
+    width:  50%;
     }
-    
-.largeBtn {
-    width:  100%;
-}
+
+/*.largeBtn {
+    width:  50%;
+}*/
 
 .button-section {
-    display:  block;
+    /*display:  block;*/
+    flex-direction:  column;
 }
 
 
