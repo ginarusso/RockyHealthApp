@@ -40,7 +40,7 @@ button {
 
 .button-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background-image: url("../images/paw-prints.png");
     border-radius: 10px;
     border: 3px dotted #d4a373;
