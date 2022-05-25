@@ -54,7 +54,7 @@ button {
 .container {
     margin: 0 auto;
     width: 50%;
-    max-width: 980px;
+    max-width: 500px;
     background: #faedcd;
     border-radius: 20px;
     padding: 10px;
@@ -68,7 +68,7 @@ button:active {
     color: #000;
 }
 
-@media (min-width: 320px) and (max-width: 400px) {
+@media max-width: 400px {
 
 /*.container {
     margin: 0 auto;
@@ -100,6 +100,7 @@ button {
     font-size: 15px;
     width:  100%;
     }
+    
 .largeBtn {
     width:  100%;
 }
