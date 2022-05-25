@@ -101,10 +101,10 @@ button {
     font-size: 15px;
     width:  50%;
     }
-
-/*.largeBtn {
-    width:  50%;
-}*/
+    
+.largeBtn {
+    align-items:  center;
+}
 
 .button-section {
     /*display:  block;*/
