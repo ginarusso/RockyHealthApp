@@ -113,11 +113,14 @@ button {
     flex-direction:  column;
     width: 75%;
     margin: 10px auto;
+    padding: 0 0 10px 0;
 }
 
 p {
-    margin-bottom: 0;
+    margin: 0;
 }
 
-
+h1 {
+    margin: 0 0 10px 0;
+}
 }
